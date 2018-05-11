@@ -17,7 +17,6 @@ void split1(const string& str, Container& cont)
 
 int main(int argc, char* argv[]) {
     // below reads the input file
-    // in your next projects, you will implement that part as well
     if (argc != 3) {
         cout << "Run the code with the following command: ./project1 [input_file] [output_file]" << endl;
         return 1;
@@ -26,7 +25,7 @@ int main(int argc, char* argv[]) {
     cout << "input file: " << argv[1] << endl;
     cout << "output file: " << argv[2] << endl;
 
-    /*
+   
     ifstream infile(argv[1]);
     string line;
     vector<string> input;
@@ -63,7 +62,6 @@ int main(int argc, char* argv[]) {
 
     cout << "avgAge " << avgAge << endl;
     cout << "mostFavColor " << mostFavColor << endl;
-    */
 
     return 0;
 }
